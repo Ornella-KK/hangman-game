@@ -17,3 +17,6 @@ if(confirm("Are you sure you want to quit the game?")){
   else{
     console.log(item);
   }
+  var congratulations="congratulations! you guessed the word!";
+console.log(congratulations.toUpperCase());
+}
