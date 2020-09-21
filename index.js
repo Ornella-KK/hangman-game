@@ -9,3 +9,11 @@ while(prog<=0){
 if(confirm("Are you sure you want to quit the game?")){
     console.log("Quit the game");
   }
+  else{
+    var single=false;
+  if(single){
+    console.log("Pick a single letter");
+  }
+  else{
+    console.log(item);
+  }
