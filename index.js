@@ -6,3 +6,6 @@ while(prog<=0){
   console.log("You chose a word");
   prog++;
 }
+if(confirm("Are you sure you want to quit the game?")){
+    console.log("Quit the game");
+  }
